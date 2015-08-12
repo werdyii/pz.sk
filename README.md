@@ -18,6 +18,15 @@ https://scotch.io/tutorials/single-page-apps-with-angularjs-routing-and-templati
 https://docs.angularjs.org/tutorial/step_07
 https://egghead.io/series/angularjs-app-from-scratch-getting-started
 
+## Flash message 
+http://jsfiddle.net/api/post/library/pure/
+http://fdietz.github.io/recipes-with-angular-js/common-user-interface-patterns/displaying-a-flash-notice-failure-message.html
+http://www.angulartutorial.net/2014/03/flash-message-using-directive-in.html
+https://github.com/mateu-aguilo-bosch/message-center
+
+## Form 
+http://plnkr.co/edit/ETaJ3W?p=info
+
 ## Getting Started
 
 To get you started you can simply clone the angular-seed repository and install the dependencies:

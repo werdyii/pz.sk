@@ -27,15 +27,15 @@
 	          <li><a href="#/view2">Contact</a></li>
 -->            
             <li><a href="#home"><i class="fa fa-home"></i></a></li>
-            <li><a href="#uvod">Úvod</a></li>
-            <li><a href="#o-nas">O nás</a></li>
-            <li><a href="#dornova-metoda" >Dornova metóda</a></li>
-            <li><a href="#bankovanie">Bankovanie</a></li>
-            <li><a href="#sm-system">SM-Systém</a></li>
-            <li><a href="#reflexologia">Reflexológia</a></li>
-            <li><a href="#bud-fit">Buď fit</a></li>
+            <li><a href="#uvod"><i class="fa fa-slack"></i>&nbsp;Úvod</a></li>
+            <li><a href="#o-nas"><i class="fa fa-group"></i>&nbsp;O nás</a></li>
+            <li><a href="#dornova-metoda"><i class="fa fa-heart-o"></i>&nbsp;Dornova metóda</a></li>
+            <li><a href="#bankovanie"><i class="fa fa-heart-o"></i>&nbsp;Bankovanie</a></li>
+            <li><a href="#sm-system"><i class="fa fa-heart-o"></i>&nbsp;SM-Systém</a></li>
+            <li><a href="#reflexologia"><i class="fa fa-heart-o"></i>&nbsp;Reflexológia</a></li>
+            <li><a href="#bud-fit"><i class="fa fa-heartbeat"></i>&nbsp;Buď fit</a></li>
             <li><a href="#referencie"><i class="fa fa-comments"></i>&nbsp;Referencie</a></li>
-            <li><a href="#cennik"><i class="fa fa-envelope"></i>&nbsp;Cenník</a></li>
+            <li><a href="#cennik"><i class="fa fa-shopping-cart"></i>&nbsp;Cenník</a></li>
             <li><a href="#kontakty" alt="Kontakty"><i class="fa fa-envelope"></i></a></li>
 
         </ul>
@@ -44,6 +44,10 @@
   </nav>
 
   <div class="container">
+    <div class="alert" ng-show="flash.getMessage()">
+      <b>Pozor!</b>
+      <p>{{flash.getMessage()}}</p>
+    </div>
 
     <div class="starter-template">
       <div ng-view></div>
