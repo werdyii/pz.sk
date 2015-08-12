@@ -1,7 +1,25 @@
-'use strict';
+var app = angular.module('pramenApp', [
+  'ngRoute',
+  'MessageController'
+]);
+
+app.config(['$routeProvider',
+  function($routeProvider) {
+    $routeProvider.
+      when('/', {
+        templateUrl: 'pages/home.html',
+        controller: 'MessageController'
+      }).
+      otherwise({
+        redirectTo: '/'
+      });
+  }]);
+
+
+//'use strict';
 
 // Declare app level module which depends on views, and components
-var app = angular.module('myAppPZ', []);
+/* var app = angular.module('myAppPZ', []);
 
 app.config( function($routeProvider) {
   $routeProvider
@@ -53,6 +71,7 @@ app.config( function($routeProvider) {
   		redirectTo: '/'
   	});
 });
+*/
 
 app.controller('MessageController',function(){
   

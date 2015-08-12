@@ -13,6 +13,11 @@ The seed app doesn't do much, just shows how to wire two controllers and views t
 
 http://engineroom.teamwork.com/hassle-free-third-party-dependencies/
 
+## AngularJS help
+https://scotch.io/tutorials/single-page-apps-with-angularjs-routing-and-templating
+https://docs.angularjs.org/tutorial/step_07
+https://egghead.io/series/angularjs-app-from-scratch-getting-started
+
 ## Getting Started
 
 To get you started you can simply clone the angular-seed repository and install the dependencies:
