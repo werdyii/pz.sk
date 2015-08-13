@@ -1,0 +1,57 @@
+/*
+    CSS file for Pramene Zdravia 
+*/
+/* app css stylesheet */
+
+.menu {
+  list-style: none;
+  border-bottom: 0.1em solid black;
+  margin-bottom: 2em;
+  padding: 0 0 0.5em;
+}
+
+.menu:before {
+  content: "[";
+}
+
+.menu:after {
+  content: "]";
+}
+
+.menu > li {
+  display: inline;
+}
+
+.menu > li:before {
+  content: "|";
+  padding-right: 0.3em;
+}
+
+.menu > li:nth-child(1):before {
+  content: "";
+  padding: 0;
+}
+body {
+  padding-top: 50px;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+.footer {
+  position: absolute;
+  padding:5px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  margin-top: 40px;
+  background-color: #f5f5f5;
+  border-top: 1px solid #eee;
+  text-align:center;
+}
+
+/*# sourceMappingURL=pramen.css.map */
