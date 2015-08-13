@@ -42,10 +42,7 @@
   </nav>
 
   <div class="container">
-    <div class="alert alert-success">
-      <b>Pozor!</b>
-      <p>flash.getMessage()</p>
-    </div>
+    @include('partials.flash')
 
     <div class="starter-template">
       @yield('content')
