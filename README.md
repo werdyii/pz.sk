@@ -16,6 +16,9 @@ Documentation for the framework can be found on the [Laravel website](http://lar
 
 ## Inspiration
 https://mattstauffer.co/blog/convert-laravel-5-frontend-scaffold-to-bower
+http://codelution.com/development/web/laravel-sending-mail-with-gmail/
+https://laracasts.com/lessons/crazy-simple-pagination
+http://codelution.com/development/web/integrating-bootstrap-admin-template-with-laravel-5/
 
 
 ## Contributing
